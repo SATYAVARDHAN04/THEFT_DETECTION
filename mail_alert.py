@@ -2,9 +2,9 @@ import smtplib
 from email.mime.text import MIMEText
 
 # Email Credentials
-EMAIL_SENDER = "svardhan278@gmail.com"
-EMAIL_PASSWORD = "ayjv lbmi byej pdyk"  # App Password
-EMAIL_RECEIVER = "manikondavasavi19431@gmail.com"
+EMAIL_SENDER = "mail1@gmail.com"
+EMAIL_PASSWORD = "1234569"  # App Password
+EMAIL_RECEIVER = "mail2@gmail.com"
 
 def send_email_alert(reason):
     subject = "🚨 Alert: Suspicious Activity Detected!"
